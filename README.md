@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/Yb3f3Mh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I. After creating a virtual machine, install/enable IIS in Windows with CGI. From the Control Panel>Programs and Features>Turn Windows features on or off>turn IIS on>expand IIS>expand World Wide Web Services>expand Application Development Features>check CGI
+I. After creating a virtual machine, install/enable IIS in Windows with CGI. From the Control Panel>'Programs and Features>'Turn Windows features on or off'>turn IIS on>expand IIS>expand 'World Wide Web Services'>expand 'Application Development Features'>check 'CGI'
 </p>
 <br />
 
@@ -64,7 +64,7 @@ IV. In this step, create the directory C:\PHP. Then install PHP 7.3.8 (php-7.3.8
 <img src="https://imgur.com/PqiXNMx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-V. Now, VC_redist.x86.exe needs to be installed.
+V. Now VC_redist.x86.exe needs to be installed.
 </p>
 <br />
 
@@ -72,7 +72,7 @@ V. Now, VC_redist.x86.exe needs to be installed.
 <img src="https://imgur.com/Zmiya0N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-VI. MySQL 5.5.62 (mysql-5.5.62-win32.msi) is downloaded and installed in this step. When installing, choose Typical Setup>Launch Configuration Wizard (after install)>Standard Configuration>create a password
+VI. MySQL 5.5.62 (mysql-5.5.62-win32.msi) is downloaded and installed in this step. When installing, choose 'Typical Setup'>'Launch Configuration Wizard (after install)'>'Standard Configuration'>create a password
 </p>
 <br />
 
@@ -96,7 +96,7 @@ VIII. Download osTicket v1.15.8>extract and copy the "upload" folder to C:\inetp
 <img src="https://i.imgur.com/nEUTJ89.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-IX. In IIS, go to Sites>Default>osTicket>click Browse *:80 on the right hand side. There are some of the PHP extensions that have a red X next to them, indicating that they are not enabled.
+IX. In IIS, go to Sites>Default>osTicket>click 'Browse *:80' on the right hand side. There are some of the PHP extensions that have a red X next to them, indicating that they are not enabled.
 </p>
 <br />
 
@@ -104,7 +104,7 @@ IX. In IIS, go to Sites>Default>osTicket>click Browse *:80 on the right hand sid
 <img src="https://i.imgur.com/wmoV7hw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-X. In this step, certain PHP extensions are being enabled in order to ensure full functionality of osTicket. From IIS>Sites>Default>osTicket>PHP Manager>click Enable or disable an extension>enable the extensions "php_imap.dll", "php_intl.dll", and "php_opcache.dll">refresh osTicket
+X. In this step, certain PHP extensions are being enabled in order to ensure full functionality of osTicket. From IIS>Sites>Default>osTicket>PHP Manager>click 'Enable or disable an extension'>enable the extensions "php_imap.dll", "php_intl.dll", and "php_opcache.dll">refresh osTicket
 </p>
 <br />
 
@@ -136,7 +136,7 @@ XIII. Set up osTicket in browser. Fill in all of the required information up unt
 <img src="https://i.imgur.com/HaiZtse.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-XIV. Download and install HeidiSQL>open and create a new session>create a password>connect to that session>right click>Create new>Database> name database "osTicket"
+XIV. Download and install HeidiSQL>open and create a new session>create a password>connect to that session>right click>'Create new'>Database> name database "osTicket"
 </p>
 <br />
 
@@ -144,7 +144,7 @@ XIV. Download and install HeidiSQL>open and create a new session>create a passwo
 <img src="https://i.imgur.com/IuETfuA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-XV. Complete osTicket setup. MySQL Database- osTicket, MySQL Username- root, MySQL Password- (password that was created). Click Install Now.
+XV. Complete osTicket setup. MySQL Database- osTicket, MySQL Username- root, MySQL Password- (password that was created). Click 'Install Now'.
 </p>
 <br />
 
